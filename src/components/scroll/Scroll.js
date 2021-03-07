@@ -3,9 +3,13 @@ import React from "react";
 function Scroll() {
   return (
     <div className="scroll">
-      <a href="top" title="Go to top" style={{ scrollBehavior: "auto" }}>
+      <div
+        onclick="topFunction()"
+        title="Go to top"
+        style={{ fontWeight: "bolder" }}
+      >
         ^
-      </a>
+      </div>
     </div>
   );
 }

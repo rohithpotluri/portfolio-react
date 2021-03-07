@@ -4,7 +4,7 @@
 
 .footer-color {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto auto auto;
   background-color: #5569dc;
   justify-items: center;
   align-items: center;
@@ -155,16 +155,7 @@
 }
 
 .download {
-  color: #000000;
   margin-top: 30%;
-}
-
-.download :hover {
-  background-color: black;
-  color: white;
-  transform: rotate(0deg) skew(0deg) translate(0, -10px);
-  transition: 0.5s;
-  transform: translate(0, 10px);
 }
 
 .download>div {
@@ -173,6 +164,14 @@
   box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
   font-size: 20px;
   line-height: 40px;
+}
+
+.download :hover {
+  background-color: black;
+  color: white;
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+  transition: 0.5s;
+  transform: translate(0, 10px);
 }
 
 .awards {
@@ -220,23 +219,22 @@
 
 .scroll {
   position: relative;
-  width: 30px;
-  text-align: center;
-  height: 30px;
-  border-radius: 50%;
-  color: white;
-  background-color: black;
+  font-size: 15px;
 }
 
 .scroll>div {
-  padding: 5px;
-  position: relative;
-  margin: auto;
-}
-
-.scroll:hover {
-  background-color: white;
   color: #000000;
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  line-height: 30px;
+  text-align: center;
+  scroll-behavior: smooth;
 }
 
-/*check w3 schools for scroll*/
+.scroll :hover {
+  transition: 1s;
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}

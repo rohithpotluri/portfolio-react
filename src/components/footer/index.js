@@ -70,8 +70,10 @@ function Footer() {
         </div>
         <div>
           <Socialmedia />
-          <Scroll />
           <Download />
+        </div>
+        <div>
+          <Scroll />
         </div>
       </div>
     </div>
