@@ -38,7 +38,6 @@
 .nameTile {
   background-image: url('https://s3-ap-southeast-2.amazonaws.com/rohithpotluri.com/Background.jpg');
   background-position: center;
-  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
   background-color: #464646;
