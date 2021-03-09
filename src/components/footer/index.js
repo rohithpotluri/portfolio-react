@@ -23,9 +23,12 @@ function Footer() {
         console.log(response.data);
         setComments("");
         setemail("");
+
+        alert("Successfully Sent the email");
       })
       .catch((err) => {
         console.log(err);
+        alert("Failed to send an email");
       });
   };
 
