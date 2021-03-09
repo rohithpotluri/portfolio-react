@@ -5,7 +5,7 @@ function downloadresume() {
     <div className="download">
       <div>
         <a
-          href="https://s3-ap-southeast-2.amazonaws.com/rohithpotluri.com/Rohith's+Resume.pdf"
+          href="https://s3-ap-southeast-2.amazonaws.com/rohithpotluri.com-resources/Rohith's+Resume.pdf"
           target="_blank"
           style={{ textDecoration: "none" }}
         >

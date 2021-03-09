@@ -8,7 +8,7 @@ function ProfileTile() {
       <div>
         <img
           className="image"
-          src="https://s3-ap-southeast-2.amazonaws.com/rohithpotluri.com/PortfolioPicture.jpg"
+          src="https://s3-ap-southeast-2.amazonaws.com/rohithpotluri.com-resources/PortfolioPicture.jpg"
         />
       </div>
 
