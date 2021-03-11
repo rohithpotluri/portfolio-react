@@ -16,10 +16,18 @@ function Header() {
           href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap"
           rel="stylesheet"
         ></link>
-        <div>About</div>
-        <div>Education & Experience</div>
-        <div>Skills & Languages</div>
-        <div>Awards & Interests</div>
+        <div>
+          <a href="#about">About</a>
+        </div>
+        <div>
+          <a href="#education">Education & Experience</a>
+        </div>
+        <div>
+          <a href="#skills">Skills & Languages</a>
+        </div>
+        <div>
+          <a href="#awards">Awards & Interests</a>
+        </div>
       </div>
       <div className="gridbox-element">
         <div>

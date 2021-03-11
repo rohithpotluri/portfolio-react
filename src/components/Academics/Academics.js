@@ -8,7 +8,9 @@ function Academics() {
         rel="stylesheet"
       ></link>
       <div style={{ alignItems: "center" }}>
-        <div className="h4 h2">Education</div>
+        <div className="h4 h2" id="education">
+          Education
+        </div>
         <div className="h2">WHAT I’VE LEARNED</div>
       </div>
 

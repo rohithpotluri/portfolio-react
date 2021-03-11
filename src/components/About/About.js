@@ -7,8 +7,10 @@ function About() {
         href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
         rel="stylesheet"
       ></link>
-      <div className="h4 h2"> About</div>
-      <div className="h2"> MY-SELF</div>
+      <div className="h4 h2" id="about">
+        About
+      </div>
+      <div className="h2">MY-SELF</div>
       <p className="h3">
         With a passion for digitalizing, data analysis I have both the skill set
         and professional background necessary to dive deep into DataBases. And

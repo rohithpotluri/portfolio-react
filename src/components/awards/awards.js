@@ -4,7 +4,9 @@ function Awards() {
   return (
     <div className="awards">
       <div>
-        <div className="h4 h2">Awards</div>
+        <div className="h4 h2" id="awards">
+          Awards
+        </div>
         <div className="h2">WHERE I SHINE</div>
         <div className="h3" style={{ fontSize: "18px" }}>
           Best Outgoing Student of the Year 2015-19<td></td>

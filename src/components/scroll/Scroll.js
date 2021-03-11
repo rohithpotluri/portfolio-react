@@ -2,15 +2,11 @@ import React from "react";
 
 function Scroll() {
   return (
-    <div className="scroll">
-      <div
-        onclick="topFunction()"
-        title="Go to top"
-        style={{ fontWeight: "bolder" }}
-      >
+    <a className="scroll" href="#top">
+      <div title="Go to top" style={{ fontWeight: "bolder" }}>
         ^
       </div>
-    </div>
+    </a>
   );
 }
 

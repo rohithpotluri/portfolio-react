@@ -1,5 +1,6 @@
 .header-color {
   background-color: #5569dc;
+  scroll-behavior: smooth;
 }
 
 .footer-color {
@@ -22,9 +23,9 @@
 .flexbox-container {
   width: auto;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   height: auto;
-  position: relative;
+  justify-items: center;
 }
 
 .flexbox-container>div {
@@ -33,6 +34,17 @@
   font-size: 17px;
   color: white;
   padding: 0px 10px;
+  scroll-behavior: smooth;
+}
+
+.flexbox-container div a {
+  text-decoration: none;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.flexbox-container div a:hover {
+  color: #000000;
 }
 
 .nameTile {
@@ -219,6 +231,7 @@
 .scroll {
   position: relative;
   font-size: 15px;
+  text-decoration: none;
 }
 
 .scroll>div {

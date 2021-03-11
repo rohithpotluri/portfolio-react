@@ -3,7 +3,9 @@ import React from "react";
 function Skills() {
   return (
     <div className="h1">
-      <div className="h2 h4">Skills & Languages</div>
+      <div className="h2 h4" id="skills">
+        Skills & Languages
+      </div>
       <div className="h2">WHAT I BRING TO THE TABLE</div>
       <div className="h3 skills" style={{ fontSize: "18px" }}>
         <div title="5/5">Microsoft SQL Server</div>
