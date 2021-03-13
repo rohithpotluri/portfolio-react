@@ -15,10 +15,13 @@ function Footer() {
     console.log(email);
 
     await axios
-      .post("ec2-54-253-157-169.ap-southeast-2.compute.amazonaws.com/email", {
-        receiver: email,
-        comment: comments,
-      })
+      .post(
+        "http://ec2-54-253-157-169.ap-southeast-2.compute.amazonaws.com/email",
+        {
+          receiver: email,
+          comment: comments,
+        }
+      )
       .then((response) => {
         console.log(response.data);
         setComments("");
