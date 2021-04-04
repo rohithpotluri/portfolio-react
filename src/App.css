@@ -6,11 +6,12 @@
 .footer-color {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   background-color: #5569dc;
   justify-items: center;
   align-items: center;
   width: auto;
-  height: 250px;
+  height: auto;
 }
 
 .f1 {
@@ -187,11 +188,10 @@
 
 .awards {
   margin-top: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
   display: grid;
-  gap: 50%;
   grid-template-columns: auto auto auto;
-  grid-template-rows: 50%;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 3px;
   justify-items: center;
 }
@@ -205,6 +205,7 @@
 .skills {
   display: grid;
   grid-template-columns: auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-template-rows: auto auto auto auto auto auto auto auto;
   column-gap: 0px;
 }
