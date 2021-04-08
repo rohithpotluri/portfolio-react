@@ -1,3 +1,4 @@
+import Menu from "./components/menu/menu.js";
 import Header from "./components/header/header.js";
 import About from "./components/About/About.js";
 import Academics from "./components/Academics/Academics.js";
@@ -11,6 +12,7 @@ import "./App.css";
 function App() {
   return (
     <div>
+      <Menu />
       <Header />
       <About />
       <Academics />

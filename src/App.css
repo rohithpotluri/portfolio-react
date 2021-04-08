@@ -55,7 +55,7 @@
   background-size: 100%;
   background-color: #464646;
   width: auto;
-  height: 50%;
+  height: 45%;
   color: white;
   padding: 20%;
 }
@@ -67,10 +67,8 @@
 
 .profileTile {
   background-color: #5569dc;
-  width: auto;
   text-align: center;
   color: white;
-  height: 106.7%;
 }
 
 .profileTile>div {
