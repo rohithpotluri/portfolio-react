@@ -55,20 +55,22 @@
   background-size: 100%;
   background-color: #464646;
   width: auto;
-  height: 45%;
+  height: 100%;
   color: white;
-  padding: 20%;
+  text-align: center;
 }
 
 .gridbox-element {
   display: grid;
   grid-template-columns: 3fr 1fr;
+  height: 80%;
 }
 
 .profileTile {
   background-color: #5569dc;
   text-align: center;
   color: white;
+  height: 100%;
 }
 
 .profileTile>div {

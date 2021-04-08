@@ -6,7 +6,7 @@ function Header() {
     <div className="gridbox-element">
       <div>
         <div className="nameTile">
-          <div>
+          <div style={{ padding: "15% 0" }}>
             <div
               style={{
                 fontSize: "24px",
