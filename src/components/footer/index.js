@@ -16,7 +16,7 @@ function Footer() {
 
     await axios
       .post(
-        "http://ec2-54-253-157-169.ap-southeast-2.compute.amazonaws.com/email",
+        "http://ec2-3-25-124-70.ap-southeast-2.compute.amazonaws.com/email",
         {
           receiver: email,
           comment: comments,
