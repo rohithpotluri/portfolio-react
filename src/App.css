@@ -5,13 +5,13 @@
 
 .footer-color {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   background-color: #5569dc;
   justify-items: center;
   align-items: center;
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .f1 {
@@ -22,10 +22,10 @@
 }
 
 .flexbox-container {
-  width: auto;
+  width: 100%;
   display: flex;
   justify-content: center;
-  height: auto;
+  height: 100%;
   justify-items: center;
 }
 
@@ -34,7 +34,6 @@
   margin: 15px;
   font-size: 17px;
   color: white;
-  padding: 0px 10px;
   scroll-behavior: smooth;
 }
 
@@ -54,7 +53,7 @@
   background-attachment: fixed;
   background-size: 100%;
   background-color: #464646;
-  width: auto;
+  width: 100%;
   height: 100%;
   color: white;
   text-align: center;
@@ -63,13 +62,14 @@
 .gridbox-element {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  height: 80%;
+  height: 100%;
 }
 
 .profileTile {
   background-color: #5569dc;
   text-align: center;
   color: white;
+  width: 100%;
   height: 100%;
 }
 
@@ -79,13 +79,19 @@
   height: 200px;
   text-align: center;
   color: antiquewhite;
+  position: relative;
 }
 
 .image {
   border-radius: 50%;
-  height: 100%;
-  width: auto;
-  position: relative;
+  max-height: 25vh;
+  max-width: 13vw;
+  min-width: 110px;
+  min-height: 110px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .gridbox-element1 {

@@ -18,7 +18,11 @@ function ProfileTile() {
       ></link>
       <div>
         <div
-          style={{ fontSize: "29px", fontFamily: "'Playfair Display', serif" }}
+          style={{
+            fontSize: "1.5vw",
+            fontFamily: "'Playfair Display', serif",
+            color: "white",
+          }}
         >
           {" "}
           Rohith Potluri
@@ -33,7 +37,7 @@ function ProfileTile() {
         <a
           href="mailto:rohithpotluri234@gmail.com"
           target="_blank"
-          style={{ color: "white" }}
+          style={{ color: "white", fontSize: "1vw" }}
         >
           ✉rohithpotluri234@gmail.com
         </a>
