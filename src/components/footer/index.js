@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Socialmedia from "../socialmedia/socialmedia.js";
 import Download from "../download/downloadresume.js";
 import Scroll from "../scroll/Scroll.js";
-import axios from "axios";
+import axios, * as others from "axios";
 
 function Footer() {
   const [comments, setComments] = useState();
@@ -15,20 +15,24 @@ function Footer() {
     console.log(email);
 
     await axios
-      .post(
-        "http://ec2-3-25-124-70.ap-southeast-2.compute.amazonaws.com/email",
-        {
+      .all(
+        axios.post("http://localhost:5000/email", {
           receiver: email,
           comment: comments,
-        }
+        }),
+        axios.post("http://localhost:5000/dbinsert", {
+          receiver: email,
+          comment: comments,
+        })
       )
-      .then((response) => {
-        console.log(response.data);
-        setComments("");
-        setemail("");
 
-        alert("Successfully Sent the email");
-      })
+      .then(
+        axios.spread((data1, data2) => {
+          // output of req.
+          console.log("data1", data1, "data2", data2);
+          alert("Successfully Sent the email");
+        })
+      )
       .catch((err) => {
         console.log(err);
         alert("Failed to send an email");
