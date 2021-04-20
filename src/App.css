@@ -105,7 +105,7 @@
 .h1 {
   margin-left: 20%;
   margin-right: 20%;
-  margin-top: 15%;
+  margin-top: 5%;
 }
 
 .h2 {
@@ -193,8 +193,8 @@
 }
 
 .awards {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
