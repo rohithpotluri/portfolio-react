@@ -14,10 +14,13 @@ function Footer() {
     console.log(comments);
     console.log(email);
 
-    const response = await axios.post("http://localhost:5000/email", {
-      receiver: email,
-      comment: comments,
-    });
+    const response = await axios.post(
+      "http://ec2-13-236-91-55.ap-southeast-2.compute.amazonaws.com/email",
+      {
+        receiver: email,
+        comment: comments,
+      }
+    );
 
     const responseData = await response.data;
 
@@ -29,26 +32,6 @@ function Footer() {
 
     setComments("");
     setemail("");
-
-    /*
-    await axios
-      .all(
-        axios.post("http://localhost:5000/email", {
-          receiver: email,
-          comment: comments,
-        }),
-        axios.post("http://localhost:5000/dbinsert", {
-          receiver: email,
-          comment: comments,
-        })
-      )
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((err) => {
-        console.log(err);
-        alert("Failed to send an email");
-      });*/
   };
 
   return (
