@@ -13,15 +13,14 @@ function Footer() {
 
     console.log(comments);
     console.log(email);
-
+    
     const response = await axios.post(
-      "http://ec2-13-236-91-55.ap-southeast-2.compute.amazonaws.com/email",
+      "http://localhost:5000/email",
       {
         receiver: email,
         comment: comments,
       }
     );
-
     const responseData = await response.data;
 
     if (responseData) {
