@@ -12,7 +12,7 @@ function About() {
       </div>
       <div className="h2">MY-SELF</div>
       <p className="h3">
-        With a passion for digitalizing, data analysis I have both the skill set
+        With a passion for digitalizing, data analysis and DevOps I have both the skill set
         and professional background necessary to dive deep into DataBases. And
         being an intensive database developer made me professional in this
         field. Also, having good cloud knowledge and working on products like
