@@ -8,7 +8,7 @@ import Footer from "./components/footer";
 
 import "./App.css";
 
-<title>Rohith Potluri</title>;
+<title>Rohith Potluri (He/Him)</title>;
 function App() {
   return (
     <div>
