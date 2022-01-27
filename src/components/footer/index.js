@@ -24,9 +24,9 @@ function Footer() {
     const responseData = await response.data;
 
     if (responseData) {
-      alert("Successfully Given the Data");
+      alert("Thanks for the comment!");
     } else {
-      alert("Not Given");
+      alert("Error commenting!");
     }
 
     setComments("");
