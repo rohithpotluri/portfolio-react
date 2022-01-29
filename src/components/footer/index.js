@@ -15,12 +15,12 @@ function Footer() {
     console.log(email);
     
     const response = await axios.post(
-      "http://localhost:5000/email",
+      "https://hxyr0vf03m.execute-api.us-east-2.amazonaws.com/test",
       {
-        receiver: email,
-        comment: comments,
+        receiver_email: email,
+        receiver_comment: comments,
       }
-    );
+    ).catch(error=>{console.log(error)});
     const responseData = await response.data;
 
     if (responseData) {
